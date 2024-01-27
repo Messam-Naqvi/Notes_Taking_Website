@@ -1,100 +1,96 @@
-/* Add this CSS in a separate file, e.g., Home.css */
 .todo-container {
-    max-width: 800px; /* Increase the max-width to accommodate three notes in a row */
-    margin: auto;
-    padding: 20px;
-    background-color: #282c34;
-    color: white;
-  }
-  
-  .todo-form {
-    margin-bottom: 20px;
-  }
-  
-  .todo-form input,
-  .todo-form textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: black; /* Set background color to black */
-    color: white; /* Set text color to white */
-  }
-  
-  .todo-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .add-button {
-    background-color:teal !important;
-  }
-  .todo-form button{
-    background-color: #61dafb; /* Blue color for the "Add" button */
-    color: white;
-  }
-  
-  .todo-list {
-    list-style: none;
-    padding: 0;
-    display: flex; /* Display notes horizontally */
-    flex-wrap: wrap; /* Allow notes to wrap to the next line */
-    gap: 20px; /* Add some space between notes */
-  }
-  
-  .todo-list li {
-    flex: 0 1 calc(30% - 20px); /* Distribute notes evenly with 20px gap */
-    background-color: #424a5d;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .todo-list li:hover {
-    background-color: #636e83; /* Change background color on hover */
-  }
-  
-  .task-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .task-header span {
-    font-size: 20px;
-    margin-right: 10px;
-  }
-  
-  .timestamp {
-    font-size: 12px;
-  }
-  
-  .edit-task input,
-  .edit-task textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: black; /* Set background color to black */
-    color: white; /* Set text color to white */
-  }
-  
-  .edit-task button.save-button {
-    background-color: #28a745; /* Green color for the "Save" button */
-    color: white;
-  }
-  
-  .remove-task {
-    background-color: #dc051b; /* Red color for the "Remove" button */
-    color: white;
-    padding: 10px;
-    border: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-  }
-  
+  max-width: 800px; /* Increase the max-width to accommodate three notes in a row */
+  margin: auto;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form input,
+.todo-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.todo-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: teal !important;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.todo-list li {
+  width: 100%;
+  flex: 0 0 100%;
+  background-color: #424a5d;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list li:hover {
+  background-color: #636e83;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-header span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.timestamp {
+  font-size: 12px;
+}
+
+.edit-task input,
+.edit-task textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.edit-task button.save-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.remove-task {
+  background-color: #dc051b;
+  color: white;
+  padding: 10px;
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
