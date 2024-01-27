@@ -79,6 +79,16 @@
   background-color: black;
   color: white;
 }
+.copy-icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.copy-icon:hover {
+  color: #61dafb; /* Change color on hover */
+}
 
 .edit-task button.save-button {
   background-color: #28a745;
